@@ -1,0 +1,40 @@
+---
+import Layout from '../../layout/Layout.astro'
+import jsonData from '../../data/poems-items.json';
+---
+
+<Layout title="poemas" lang="es">
+	<h1 class="text-6xl text-center my-8">Poemas</h1>
+	<div class="grid lg:grid-cols-3 gap-4 lg:mx-52 mx-8">
+		{
+			jsonData.map((item) => (
+				<div class="border-2 rounded-lg p-4 flex flex-col justify-between">
+					<div>
+						<h2 class="text-2xl font-bold">{item.title}</h2>
+						<p class="text-gray-500">{item.author}</p>
+						<p class="text-gray-500">{item.date}</p>
+						<p class="text-gray-500">{item.description}</p>
+					</div>
+					<button
+						id="view-poem"
+						type="button"
+						data-id={item.id}
+						class="w-full mt-2 focus:outline-none text-white text-blo bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900">
+						View
+					</button>
+				</div>
+			))
+		}
+	</div>
+</Layout>
+
+
+<script>
+	const buttons = document.querySelectorAll('#view-poem');
+	buttons.forEach((button) => {
+		button.addEventListener('click', (e) => {
+			const id = (e.target as HTMLButtonElement).getAttribute('data-id') || '';
+			window.location.href = `/es/poems/${id}`;
+		})
+	})
+</script>
