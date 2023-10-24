@@ -1,26 +1,26 @@
 [
     {
-        "id": "me-acostrumbre",
+        "id": "1",
         "author": "Anónimo",
         "date": "2019-01-01",
-        "description": "Me acostumbré a mi, a mis cosas, a mi vida, a estar sola...",
-        "title": "Me acostumbré",
-        "content": "Me acostumbré\na ocupar toda la cama al dormir,\na no cocinar los domingos\ny a volver a la hora que me da la gana.\n\nMe acostumbré\na no dar explicaciones\ny hacer lo que me gusta\nsin que nadie me critique.\n\nMe acostumbré\na comer a la media noche\ny a ver mis programas favoritos,\na cantar en voz alta\ny bailar por toda la casa.\n\nMe acostumbré\na recibir llamadas a cada rato\ny contestar mensajes muy tarde,\na salir con amigos\ny viajar uno que otro fin de semana.\n\nMe acostumbré\nal olor del café por las mañanas\ny a caminar descalza por el jardín,\na tardar cuando me toca arreglarme\ny a cancelar citas a último momento\nsólo porque sí.\n\nMe acostumbré\na mi,\na mis cosas,\na mi vida,\na estar sola..."
+        "description": "I got used to myself, to my things, to my life, to being alone...",
+        "title": "I got used to",
+        "content": "I got used to\noccupying the entire bed when I sleep,\nnot cooking on Sundays,\nand coming back whenever I want.\n\nI got used to\nnot giving explanations,\ndoing what I like,\nwithout anyone judging me.\n\nI got used to\neating at midnight,\nwatching my favorite shows,\nsinging loudly,\nand dancing throughout the house.\n\nI got used to\ngetting calls constantly,\nreplying to messages very late,\ngoing out with friends,\nand traveling on some weekends.\n\nI got used to\nthe smell of coffee in the mornings,\nwalking barefoot in the garden,\ntaking my time when getting ready,\nand cancelling plans at the last minute\njust because.\n\nI got used to\nme,\nmy things,\nmy life,\nbeing alone..."
     },
     {
-        "id": "mas-hermoso",
-        "author": "Anónimo",
+        "id": "2",
+        "author": "Anonymous",
         "date": "2019-01-01",
-        "description": "No hay nada más hermoso que tu rostro ni nada más dulce que tu sonrisa..",
-        "title": "Lo más hermoso",
-        "content": "No hay nada más hermoso que tu rostro\nni nada más dulce que tu sonrisa\neres la luz que ilumina mi espacio\ny el sueño que me llena de delicia\n\nQuisiera ser el aire que respiras\ny el sol que te calienta cada día\nquisiera ser la luna que te mira\ny el verso que te canta poesía\n\nPero sé que no puedo serlo todo\nni pretendo tenerte solo para mí\nsolo quiero que sepas lo que siento\n\nQue te quiero con toda mi alma y vida\nque eres tú mi razón y mi sentido\ny que sin ti no tendría alegría."
+        "description": "There's nothing more beautiful than your face, nor anything sweeter than your smile...",
+        "title": "The most beautiful",
+        "content": "There's nothing more beautiful than your face,\nnor anything sweeter than your smile.\nYou are the light that illuminates my space,\nand the dream that fills me with delight.\n\nI wish I could be the air you breathe,\nand the sun that warms you every day.\nI wish I could be the moon that watches you,\nand the verse that sings poetry to you.\n\nBut I know I can't be everything,\nnor do I pretend to have you just for me.\nI just want you to know how I feel.\n\nThat I love you with all my soul and life,\nthat you are my reason and meaning,\nand without you, I'd have no joy."
     },
     {
-        "id": "soneto-xvii",
+        "id": "3",
         "author": "Pablo Neruda",
         "date": "2019-01-01",
-        "description": "No te amo como si fueras rosa de sal, topacio...",
+        "description": "I do not love you as if you were salt-rose, or topaz...",
         "title": "Soneto XVII",
-        "content": "No te amo como si fueras rosa de sal, topacio\no flecha de claveles que propagan el fuego:\nte amo como se aman ciertas cosas oscuras,\nsecretamente, entre la sombra y el alma.\n\nTe amo como la planta que no florece y lleva\ndentro de sí, escondida, la luz de aquellas flores,\ny gracias a tu amor vive oscuro en mi cuerpo\nel apretado aroma que ascendió de la tierra.\n\nTe amo sin saber cómo, ni cuándo, ni de dónde,\nte amo directamente sin problemas ni orgullo:\nasí te amo porque no sé amar de otra manera,\n\nsino así de este modo en que no soy ni eres,\ntan cerca que tu mano sobre mi pecho es mía,\ntan cerca que se cierran tus ojos con mi sueño.\n"
+        "content": "I don't love you as if you were a rose of salt, a topaz,\n or an arrow of carnations that spread fire:\n I love you like certain dark things are loved,\n secretly, between the shadow and the soul.\n\n I love you like the plant that It does not bloom and carries\nwithin itself, hidden, the light of those flowers,\nand thanks to your love it lives darkly in my body\nthe tight aroma that rose from the earth.\n\nI love you without knowing how, or when, nor from where,\nI love you directly without problems or pride:\nthis is how I love you because I don't know how to love any other way,\n\nbut this way in which I am not nor are you,\nso close that your hand on my chest is mine,\nso close that your eyes close with my dream.\n"
     }
 ]

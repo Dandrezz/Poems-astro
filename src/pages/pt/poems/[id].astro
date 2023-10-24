@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layout/Layout.astro'
-import jsonData from '../../../data/poems-items.json';
+import jsonData from '../../../data/poems-items-pt.json';
 
 export async function getStaticPaths() {
   const data = Object.values(jsonData).map((item:any) => {
@@ -16,7 +16,7 @@ const { item } = Astro.props;
 const { content } = item;
 ---
 
-<Layout title="poema espesifico">
+<Layout title={item.title} lang="pt">
   <div class="flex font-serif">
     <div class="m-auto">
       <h1 class="text-4xl mb-8 text-center mt-8">{item.title}</h1>

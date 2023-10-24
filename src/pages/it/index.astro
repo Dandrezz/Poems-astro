@@ -1,9 +1,9 @@
 ---
 import Layout from '../../layout/Layout.astro'
-import jsonData from '../../data/poems-items-en.json';
+import jsonData from '../../data/poems-items-it.json';
 ---
 
-<Layout title="poems" lang="en">
+<Layout title="poemas" lang="it">
 	<h1 class="text-6xl text-center my-8">Poemas</h1>
 	<div class="grid lg:grid-cols-3 gap-4 lg:mx-52 mx-8">
 		{
@@ -15,8 +15,7 @@ import jsonData from '../../data/poems-items-en.json';
 						<p class="text-gray-500">{item.date}</p>
 						<p class="text-gray-500">{item.description}</p>
 					</div>
-					<button
-						id="view-poem"
+					<button 
 						type="button"
 						data-id={item.id}
 						class="w-full mt-2 focus:outline-none text-white text-blo bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900">
@@ -30,11 +29,11 @@ import jsonData from '../../data/poems-items-en.json';
 
 
 <script>
-	const buttons = document.querySelectorAll('#view-poem');
+	const buttons = document.querySelectorAll('button');
 	buttons.forEach((button) => {
 		button.addEventListener('click', (e) => {
 			const id = (e.target as HTMLButtonElement).getAttribute('data-id') || '';
-			window.location.href = `/en/poems/${id}`;
+			window.location.href = `/it/poems/${id}`;
 		})
 	})
 </script>

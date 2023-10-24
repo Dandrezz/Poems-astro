@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layout/Layout.astro'
-import jsonData from '../../data/poems-items.json';
+import jsonData from '../../data/poems-items-pt.json';
 ---
 
 <Layout title="poemas" lang="pt">
@@ -33,7 +33,7 @@ import jsonData from '../../data/poems-items.json';
 	buttons.forEach((button) => {
 		button.addEventListener('click', (e) => {
 			const id = (e.target as HTMLButtonElement).getAttribute('data-id') || '';
-			window.location.href = `/es/poems/${id}`;
+			window.location.href = `/pt/poems/${id}`;
 		})
 	})
 </script>
