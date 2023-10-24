@@ -1,3 +1,26 @@
 ---
-Astro.redirect('/es/')
+import Layout from '../layout/Layout.astro'
 ---
+
+<Layout title="Index" lang="es">
+
+    <div class="flex flex-col justify-center items-center mt-10">
+        <a
+            href="/es"
+            class="text-center w-1/3 mt-2 focus:outline-none text-white text-blo bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900"
+        >Español</a>
+        <a
+            href="/en"
+            class="text-center w-1/3 mt-2 focus:outline-none text-white text-blo bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900"
+        >English</a>
+        <a
+            href="/pt"
+            class="text-center w-1/3 mt-2 focus:outline-none text-white text-blo bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900"
+        >Português</a>
+        <a
+            href="/it"
+            class="text-center w-1/3 mt-2 focus:outline-none text-white text-blo bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900"
+        >Italiano</a>
+    </div>
+
+</Layout>
